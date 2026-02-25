@@ -5,7 +5,7 @@
 	(uuid "42057d53-1ee8-4b30-b755-a5c884aea8a8")
 	(paper "A")
 	(lib_symbols
-		(symbol "main_pcb:Arduino_Mega"
+		(symbol "symbols:Arduino_Mega"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1686,7 +1686,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "main_pcb:Buck_Converter"
+		(symbol "symbols:Buck_Converter"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1822,7 +1822,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "main_pcb:C"
+		(symbol "symbols:C"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1961,7 +1961,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "main_pcb:Clock"
+		(symbol "symbols:Clock"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2123,7 +2123,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "main_pcb:Conn_01x02"
+		(symbol "symbols:Conn_01x02"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -2265,7 +2265,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "main_pcb:Conn_CO"
+		(symbol "symbols:Conn_CO"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2542,7 +2542,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "main_pcb:Conn_LCD"
+		(symbol "symbols:Conn_LCD"
 			(pin_names
 				(offset 0.254)
 			)
@@ -3694,7 +3694,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "main_pcb:Conn_PM"
+		(symbol "symbols:Conn_PM"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3946,7 +3946,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "main_pcb:Conn_SD"
+		(symbol "symbols:Conn_SD"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4252,7 +4252,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "main_pcb:Conn_Temp"
+		(symbol "symbols:Conn_Temp"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4500,7 +4500,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "main_pcb:MountingHole"
+		(symbol "symbols:MountingHole"
 			(pin_names
 				(offset 1.016)
 			)
@@ -4583,7 +4583,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "main_pcb:Op_Amp"
+		(symbol "symbols:Op_Amp"
 			(pin_names
 				(offset 0.127)
 			)
@@ -4759,7 +4759,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "main_pcb:R"
+		(symbol "symbols:R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -6682,7 +6682,7 @@
 		(uuid "ff41ddc8-46e0-490c-955f-b0fc66c7dee4")
 	)
 	(symbol
-		(lib_id "main_pcb:Conn_PM")
+		(lib_id "symbols:Conn_PM")
 		(at 139.7 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6708,7 +6708,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "KiCad Footprints:JST_SM08B-GHS-TB(LF)(SN)"
+		(property "Footprint" "footprints:JST_SM08B-GHS-TB(LF)(SN)"
 			(at 139.7 160.02 0)
 			(effects
 				(font
@@ -6845,7 +6845,7 @@
 		)
 	)
 	(symbol
-		(lib_id "main_pcb:MountingHole")
+		(lib_id "symbols:MountingHole")
 		(at 241.3 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6872,7 +6872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+		(property "Footprint" "footprints:MountingHole_2.1mm"
 			(at 241.3 30.48 0)
 			(effects
 				(font
@@ -6909,7 +6909,7 @@
 		)
 	)
 	(symbol
-		(lib_id "main_pcb:Arduino_Mega")
+		(lib_id "symbols:Arduino_Mega")
 		(at 58.42 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6935,7 +6935,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ARDUINO_ARDUINO_MEGA_2560_REV3_A000067"
+		(property "Footprint" "footprints:ARDUINO_ARDUINO_MEGA_2560_REV3_A000067"
 			(at 58.42 111.76 0)
 			(effects
 				(font
@@ -7289,7 +7289,7 @@
 		)
 	)
 	(symbol
-		(lib_id "main_pcb:R")
+		(lib_id "symbols:R")
 		(at 232.41 68.58 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7316,7 +7316,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "footprints:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 231.394 68.326 90)
 			(effects
 				(font
@@ -7359,7 +7359,7 @@
 		)
 	)
 	(symbol
-		(lib_id "main_pcb:R")
+		(lib_id "symbols:R")
 		(at 213.36 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7386,7 +7386,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KiCad Footprints:R0402"
+		(property "Footprint" "footprints:R0402"
 			(at 212.344 97.536 90)
 			(effects
 				(font
@@ -7413,6 +7413,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_3DModel" "026a4a15ab5c4a92ac0e421d6d013717"
+			(at 213.36 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "1 0.5"
+			(at 213.36 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a387384e-e3a2-4853-8754-ac57c4e00f98")
 		)
@@ -7429,7 +7447,7 @@
 		)
 	)
 	(symbol
-		(lib_id "main_pcb:Conn_01x02")
+		(lib_id "symbols:Conn_01x02")
 		(at 260.35 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7456,7 +7474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 260.35 99.06 0)
 			(effects
 				(font
@@ -7499,7 +7517,7 @@
 		)
 	)
 	(symbol
-		(lib_id "main_pcb:Conn_CO")
+		(lib_id "symbols:Conn_CO")
 		(at 137.16 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7525,7 +7543,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "JST_B5B-XH-A"
+		(property "Footprint" "footprints:JST_B5B-XH-A"
 			(at 137.16 119.38 0)
 			(effects
 				(font
@@ -7637,7 +7655,7 @@
 		)
 	)
 	(symbol
-		(lib_id "main_pcb:MountingHole")
+		(lib_id "symbols:MountingHole")
 		(at 241.3 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7664,7 +7682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+		(property "Footprint" "footprints:MountingHole_2.1mm"
 			(at 241.3 35.56 0)
 			(effects
 				(font
@@ -7701,7 +7719,7 @@
 		)
 	)
 	(symbol
-		(lib_id "main_pcb:R")
+		(lib_id "symbols:R")
 		(at 213.36 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7728,7 +7746,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KiCad Footprints:R0402"
+		(property "Footprint" "footprints:R0402"
 			(at 212.344 83.566 90)
 			(effects
 				(font
@@ -7755,6 +7773,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_3DModel" "026a4a15ab5c4a92ac0e421d6d013717"
+			(at 213.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "1 0.5"
+			(at 213.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5cbef287-f622-4cb4-b582-751be71883b6")
 		)
@@ -7771,7 +7807,7 @@
 		)
 	)
 	(symbol
-		(lib_id "main_pcb:R")
+		(lib_id "symbols:R")
 		(at 232.41 54.61 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7798,7 +7834,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "footprints:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 231.394 54.356 90)
 			(effects
 				(font
@@ -7841,7 +7877,7 @@
 		)
 	)
 	(symbol
-		(lib_id "main_pcb:Clock")
+		(lib_id "symbols:Clock")
 		(at 195.58 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7867,7 +7903,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TE_5-146280-5"
+		(property "Footprint" "footprints:TE_5-146280-5"
 			(at 195.58 154.94 0)
 			(effects
 				(font
@@ -7979,7 +8015,7 @@
 		)
 	)
 	(symbol
-		(lib_id "main_pcb:Conn_SD")
+		(lib_id "symbols:Conn_SD")
 		(at 139.7 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8005,7 +8041,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "JST_B6B-XH-A(LF)(SN)"
+		(property "Footprint" "footprints:JST_B6B-XH-A(LF)(SN)"
 			(at 139.7 60.96 0)
 			(effects
 				(font
@@ -8120,7 +8156,7 @@
 		)
 	)
 	(symbol
-		(lib_id "main_pcb:Conn_Temp")
+		(lib_id "symbols:Conn_Temp")
 		(at 200.66 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8146,7 +8182,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "KiCad Footprints:JST_B4B-XH-A(LF)(SN)"
+		(property "Footprint" "footprints:JST_B4B-XH-A(LF)(SN)"
 			(at 200.66 129.54 0)
 			(effects
 				(font
@@ -8255,7 +8291,7 @@
 		)
 	)
 	(symbol
-		(lib_id "main_pcb:Op_Amp")
+		(lib_id "symbols:Op_Amp")
 		(at 237.49 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8280,7 +8316,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+		(property "Footprint" "footprints:SOT-353_SC-70-5"
 			(at 242.57 93.98 0)
 			(effects
 				(font
@@ -8332,7 +8368,7 @@
 		)
 	)
 	(symbol
-		(lib_id "main_pcb:Buck_Converter")
+		(lib_id "symbols:Buck_Converter")
 		(at 93.98 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8357,7 +8393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KiCad Footprints:DFR1015 Buck_Converter"
+		(property "Footprint" "footprints:DFR1015 Buck_Converter"
 			(at 93.98 189.23 0)
 			(effects
 				(font
@@ -8406,7 +8442,7 @@
 		)
 	)
 	(symbol
-		(lib_id "main_pcb:C")
+		(lib_id "symbols:C")
 		(at 245.11 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8431,7 +8467,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KiCad Footprints:CAPC1608X90"
+		(property "Footprint" "footprints:CAPC1608X90"
 			(at 248.92 81.5848 0)
 			(effects
 				(font
@@ -8474,7 +8510,7 @@
 		)
 	)
 	(symbol
-		(lib_id "main_pcb:Conn_LCD")
+		(lib_id "symbols:Conn_LCD")
 		(at 179.07 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8500,7 +8536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CON9_SMT-RA_FCC-FPC2"
+		(property "Footprint" "footprints:TE_84952-9_1x09-1MP_P1.0mm_Horizontal"
 			(at 179.07 53.34 0)
 			(effects
 				(font
