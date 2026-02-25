@@ -650,6 +650,18 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLC_3DModel",
+          "name": "JLC_3DModel",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLC_3D_Size",
+          "name": "JLC_3D_Size",
+          "show": false
         }
       ],
       "filter_string": "",
