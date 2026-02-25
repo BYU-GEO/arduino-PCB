@@ -1,0 +1,12 @@
+# KiCad Files to Ignore
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+_autosave-*
+*.lck
+fp-info-cache
+*.pyc
+\#auto_saved_files\#
+
+.DS_Store
