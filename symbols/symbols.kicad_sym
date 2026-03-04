@@ -1747,7 +1747,7 @@
 			(pin input line
 				(at -10.16 1.27 0)
 				(length 2.54)
-				(name "Bat_in"
+				(name "5V_out"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1765,7 +1765,7 @@
 			(pin input line
 				(at -10.16 -2.54 0)
 				(length 2.54)
-				(name "Bat_g"
+				(name "5V_g"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1783,7 +1783,7 @@
 			(pin output line
 				(at 10.16 1.27 180)
 				(length 2.54)
-				(name "5V_out"
+				(name "Bat_in"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1801,7 +1801,7 @@
 			(pin output line
 				(at 10.16 -2.54 180)
 				(length 2.54)
-				(name "5V_g"
+				(name "Bat_g"
 					(effects
 						(font
 							(size 1.27 1.27)
